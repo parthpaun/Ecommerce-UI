@@ -1,6 +1,6 @@
-import Footer from "./components/layout/footer";
-import Header from "./components/layout/header";
-import AppContextProvider from "./components/providers/app-context";
+import Footer from "./footer";
+import Header from "./header";
+import AppContextProvider from "../providers/app-context";
 
 const Layout = ({ children }) => {
   return (
